@@ -1,0 +1,145 @@
+p{
+    /*font-size: 20px;
+    to increase the size of font*/
+
+    /*font-family:Arial, Helvetica, sans-serif;
+    use to change the style of font*/
+
+    /*font-weight: 600;
+     to vary the boldness of the text*/
+
+    /*font-variant: small-caps;
+   changing font into upper case and small in size*/
+
+    /*font-style: italic;
+    /*to give some stylings to font*/
+}
+
+/*text properties*/
+p{
+    color: cornflowerblue;
+    /* to change the color of the text*/
+
+    /*text-align:end;
+    /*to align the text*/
+
+   /* text-decoration:line-through;
+    /*this is used to decorate the text
+    properties : underline 
+                 overline
+                 line-through*/
+
+    /*text-transform:uppercase;
+    text-transform: lowercase;
+
+    text-shadow:10px 10px 3px wheat;
+
+    text-indent: 100px;
+
+    /*line-height: 50px;
+    word-spacing: 50px;
+    letter-spacing: 10px;*/
+}
+
+
+* {
+    /*background-color: aquamarine;
+    padding: 0;
+    margin:0;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj0y6Vhjobxd6Bkhwc5tQ8qHR4yXifC_oovQ&s');
+    background-size: cover;
+
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+
+    background-image: radial-gradient(pink,lavender,cornflowerblue);*/
+}
+/*BACKGROUND PROPERTIES*/
+p{
+    /*background-color: lavender;
+    background: linear-gradient(rgb(216, 104, 104),yellow);
+
+    background-image: linear-gradient(to left,pink,yellow);*/
+
+}
+
+
+
+/*position properties*/
+/* .class1 {
+    background-color:cyan;
+    position:absolute;
+    top: 30px; 
+    left: 20px;
+
+}
+
+.class2 {
+    background-color: rgb(30,210,45);
+    position: relative;
+    top: 30px;
+    left: 30px;
+
+}
+
+.class3{
+    background-color: blue;
+    position: static;
+    left: 30px;
+}
+
+.class4{
+    background-color: brown;
+    position: fixed;
+
+}
+
+.class5{
+    background-color: rgb(224,235,12);
+    position: sticky;
+    top: 300px;
+} */
+
+
+/* #child{
+    border:1px dotted blue;
+    background-color: red;
+    position: absolute;
+    left:20px;
+}
+
+#parent{
+    border: 1px solid black;
+    height: 50px;
+    background-color: aqua;
+    position: relative;
+    left: 30px;
+} */
+
+
+/* display properties */
+
+p{
+    width: 80px;
+    height: 30vh;
+    border: 1px solid black;
+    padding: 30px;
+}
+
+div{
+    display:flex;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+}
+.class1{
+    background-color: blueviolet;
+}
+
+.class2{
+    background-color: rgb(194, 198, 203);
+}
+
+.class3{
+    background-color: rgb(235, 51, 217);
+}
